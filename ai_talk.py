@@ -8,7 +8,7 @@ import webbrowser
 import requests
 import time
 
-API_KEY = "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"
+API_KEY = ""
 
 def ask_openrouter(question):
     """Отправляет вопрос в OpenRouter и возвращает ответ"""
