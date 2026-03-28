@@ -11,7 +11,6 @@ import time
 API_KEY = ""
 
 def ask_openrouter(question):
-    """Отправляет вопрос в OpenRouter и возвращает ответ"""
     url = "https://openrouter.ai/api/v1/chat/completions"
     
     headers = {
